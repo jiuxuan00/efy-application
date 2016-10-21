@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>礼物订单</title>
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+    <link type="text/css" rel="stylesheet" href="../shop2015/css/amazeui.min.css?v=20150831">
+    <link type="text/css" rel="stylesheet" href="../shop2015/css/app.css?v=20150831">
+    <link type="text/css" rel="stylesheet" href="../shop2015/css/myorder.css?v=20150831">
+</head>
+<body>
+<header class="am-header custom-header">
+    <div class="am-header-left am-header-nav">
+        <a href="#chevron-left" class="chevron-left"></a>
+    </div>
+    <!-- //End--chevron-left-->
+    <h1 class="am-header-title">礼物订单</h1>
+    <!-- //End--title-->
+    <!-- //End--chevron-left-->
+    <div class="menu-list">
+        <ul class="bd">
+            <li><a href="" title="首页">首页</a></li>
+            <li><a href="" title="分类">分&nbsp;类</a></li>
+            <li class="active"><a href="" title="购物车">购&nbsp;物&nbsp;车</a></li>
+            <li><a href="" title="传承人">传承人</a></li>
+            <li><a href="" title="个人中心">个&nbsp;人&nbsp;中&nbsp;心</a></li>
+        </ul>
+    </div>
+</header>
+<!--//End--header-->
+<div class="gift ae">
+    <div class="card custom ae">
+        <div class="btb"><h5>礼物卡片</h5></div>
+        <div class="edit-text">
+            <em>我精心为你准备了礼物，希望你能收下。</em>
+            <!--弹出按钮-->
+            <a href="#" id="add-show" ><i class="cart-icon"></i></a>
+            <!--弹出框-->
+            <div style="display: none" class="add-cart">
+                <textarea class="ae"></textarea>
+                <div class="atext ae">
+                    <a href="" class="cancel">取&nbsp;消</a>
+                    <a href="" class="affirm">确&nbsp;认</a>
+                </div>
+            </div>
+        </div>
+        <div class="cupic ae"><img src="../shop2015/upload/ever1.png"></div>
+        <div class="detailed"><div class="font-1" style="display: none">礼物清单：安格尔-公爵夫人像</div><div class="font-2"  style="display: none">价值：50000元</div></div>
+    </div>
+    <div class="gift-details ae">
+        <div class="btb"><h5>礼物详情</h5></div>
+        <a href="#" class="gift-c-d ae"><strong>安格尔-公爵夫人像</strong><i class="sj-icon"></i></a>
+        <div class="chandise ae">
+            <div class="cha-pic"><img src="../shop2015/upload/seckill1.jpg"></div>
+            <div class="cha-box">
+                <strong>越窑青瓷御用瓷碗越窑青瓷御用瓷碗</strong>
+                <div class="money">
+                    <em>5000000.00</em>
+                    <i>元</i>
+                </div>
+                <span class="add-sub">
+                    <em class="sub btn-cart-no" href="#减"></em>
+                    <input class="ipt-txt" type="text" value="1">
+                    <em class="add" href="#加"></em>
+                     <a href="#" class="piclist">删除</a>
+                </span>
+            </div>
+        </div>
+        <iuput type="radio">
+        <div class="elect">
+            <div class="left">
+                <input type="radio" class="add-c1">
+                <span>显示礼物名称</span>
+            </div>
+            <div class="right">
+                <input type="checkbox" class="add-c2">
+                <span>显示礼物价格</span>
+            </div>
+        </div>
+        <div class="bd cart-pay newcart-pay">
+            <div class="btb"><h5>请选择支付方式</h5></div>
+            <ul class="ul-list ae">
+                <li><a href="#支付宝" title="支付宝"><i class="icon icon-zfb"></i>支 付 宝</a></li>
+                <li><a href="#微信支付" title="微信支付"><i class="icon icon-wechat"></i>微 信 支 付</a></li>
+            </ul>
+        </div>
+        <div class="bd payment-total-bar newpayment-total-bar">
+            <span class="txt">共一件礼物，总金额500000元</span>
+            <a href="#btn-right" class="btn-right">结&nbsp;算</a>
+        </div>
+    </div>
+</div>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="../shop2015/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="../shop2015/js/amazeui.min.js"></script>
+<script src="../shop2015/js/system.js"></script>
+</body>
+</html>

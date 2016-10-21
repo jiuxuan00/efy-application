@@ -1,0 +1,198 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>礼物订单</title>
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+    <link type="text/css" rel="stylesheet" href="../shop2015/css/amazeui.min.css?v=20150831">
+    <link type="text/css" rel="stylesheet" href="../shop2015/css/app.css?v=20150831">
+    <link type="text/css" rel="stylesheet" href="../shop2015/css/myorder.css?v=20150831">
+</head>
+<body>
+<header class="am-header custom-header">
+    <div class="am-header-left am-header-nav">
+        <a href="#chevron-left" class="chevron-left"></a>
+    </div>
+    <!-- //End--chevron-left-->
+    <h1 class="am-header-title">礼物订单</h1>
+    <!-- //End--title-->
+    <!-- //End--chevron-left-->
+    <div class="menu-list">
+        <ul class="bd">
+            <li><a href="" title="首页">首页</a></li>
+            <li><a href="" title="分类">分&nbsp;类</a></li>
+            <li class="active"><a href="" title="购物车">购&nbsp;物&nbsp;车</a></li>
+            <li><a href="" title="传承人">传承人</a></li>
+            <li><a href="" title="个人中心">个&nbsp;人&nbsp;中&nbsp;心</a></li>
+        </ul>
+    </div>
+</header>
+<!--//End--header-->
+<div class="gift ae">
+    <form>
+    <div class="card custom ae ">
+        <div class="btb newbtb"><h5>礼物卡片</h5></div>
+        <div class="ae imgb">
+            <img src="../shop2015/upload/gift-1.jpg">
+        </div>
+        <!--//End-->
+        <div class="edit-text">
+           <!-- 点击后状态
+            <div class="edit-txt3 edit-txt1">点击此处即可编辑祝福语</div>
+            点击后状态-->
+            <div class="edit-txt1">点击此处即可编辑祝福语</div>
+            <!--//End-->
+            <div style="display: none" class="add-cart" id="addMessage">
+                <textarea class="ae" maxlength="50"></textarea>
+                <span  class="leaveword-num1"><em>50</em>/50</span>
+                <div class="atext ae">
+                    <a href="" class="cancel">取&nbsp;消</a>
+                    <a href="" class="affirm">确&nbsp;认</a>
+                </div>
+            </div>
+            <!--//End-->
+        </div>
+        <div class="edit-text">
+            <div class="edit-txt2">点击添加送礼人姓名</div>
+            <!--//End-->
+            <div style="display: none" class="add-cart" id="addGaverName">
+                <textarea class="ae" maxlength="50"></textarea>
+                <div class="atext ae">
+                    <a href="" class="cancel">取&nbsp;消</a>
+                    <a href="" class="affirm">确&nbsp;认</a>
+                </div>
+            </div>
+            <!--//End-->
+        </div>
+        <div class="hint"><input type="checkbox" >是否告诉他是什么礼物</div>
+        <!--//End-->
+
+
+        <div class="detailed"><div class="font-1" style="display: none">礼物清单：安格尔-公爵夫人像</div><div class="font-2"  style="display: none">价值：5000000元</div></div>
+
+    </div>
+    <div class="gift-details ae">
+        <div class="btb"><h5>礼物详情</h5></div>
+        <div class="chandise ae">
+            <div class="cha-pic"><img src="../shop2015/upload/newfx1.png"></div>
+            <div class="cha-box">
+                <strong>逐鹿顺意</strong>
+                <p>越窑青瓷御用瓷碗越窑青瓷御用瓷碗</p>
+                <div class="money">
+                    <em>5000000.00</em>
+                    <i>元</i>
+                </div>
+            </div>
+            <div class="balance add-balance"><input type="checkbox">使用余额支付<span>2110.00元</span></div>
+            <div class="bd order-total add-order-total">
+                <p  id="btn-coupon"><strong>优惠券</strong><span class="btn-coupons">2张券可用</span><a href="#arrow-right" class="arrow-right"></a></p>
+                <p><strong>商品金额</strong><span><em>￥</em>2000.00</span></p>
+                <p><strong class="grey">返现</strong><span><em>￥</em>0.00</span></p>
+                <p><strong>优惠</strong><span> <em>￥-</em>100.00</span></p>
+                <p><strong>余额</strong><span> <em>￥-</em>100.00</span></p>
+                <p><strong>运费</strong><span><em>￥</em>30.00</span></p>
+            </div>
+        </div>
+
+        <div class="bd cart-pay newcart-pay new-yierqiu">
+            <div class="btb"><h5>请选择支付方式</h5></div>
+            <ul class="ul-list ae">
+                <li class="add-btn1"><a href="#支付宝" title="支付宝">
+                    <i class="icon icon-zfb"></i>
+                    <div class="zfb-page">
+                        <p>支付宝支付</p>
+                        <p>推荐有支付宝账号的用户使用</p>
+                    </div>
+                    <span class="add-zfb"></span>
+                </a></li>
+                <li>
+                    <a href="#微信支付" title="微信支付">
+                    <i class="icon icon-wechat"></i>
+                    <div class="zfb-page">
+                        <p>微信支付</p>
+                        <p>推荐安装微信5.0及以上的版本使用</p>
+                    </div>
+                    <span class="add-zfb"></span>
+                </a>
+                </li>
+            </ul>
+        </div>
+        <div class="bd payment-total-bar newpayment-total-bar">
+            <span class="txt">共一件礼物，总金额500000元</span>
+            <a href="#btn-right" class="btn-right btn-red">结&nbsp;算</a>
+        </div>
+    </div>
+    </form>
+</div>
+<div id="order-total" class="alert-delete" style="display: none;">
+    <div class="bd cart-coupons addtop">
+        <div class="title">
+            <h2>优惠券</h2>
+        </div>
+        <!--//ENd-->
+            <ul class="ul-list">
+                <li>
+                    <input type="radio" name="" id="" >
+                    <p>满500减50</p>
+                    <p>有效期：2012-09-09至2013-09-09</p>
+                    <p>适用范围：全网通用</p>
+                </li>
+                <li>
+                    <input type="radio" name="" id="">
+                    <p>满500减50</p>
+                    <p>有效期：2012-09-09至2013-09-09</p>
+                    <p>适用范围：全网通用</p>
+                </li>
+                <li>
+                    <input type="radio" name="" id="">
+                    <p>满500减50</p>
+                    <p>有效期：2012-09-09至2013-09-09</p>
+                    <p>适用范围：全网通用</p>
+                </li>
+                <li>
+                    <input type="radio" name="" id="">
+                    <p>满500减50</p>
+                    <p>有效期：2012-09-09至2013-09-09</p>
+                    <p>适用范围：全网通用</p>
+                </li>
+            </ul>
+            <div class="bd add-new-btn" style="margin-top:30px;">
+                <a class="cart-btn" title="确定" >确定</a>
+        </div>
+    </div>
+    <div class="overbg"></div>
+</div>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="../shop2015/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="../shop2015/js/amazeui.min.js"></script>
+<script src="../shop2015/js/system.js"></script>
+
+<script>
+</script>
+</body>
+</html>

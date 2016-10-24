@@ -204,8 +204,8 @@ article {
     z-index:-1;
 }
 
-.drawer:after{
-    content: '';
+.drawer .overbg{
+
     height:100%;
     position: fixed;
     top:0;
@@ -263,7 +263,7 @@ article {
 .drawer_show .drawer {
     z-index:10;
 }
-.drawer_show .drawer:after{
+.drawer_show .drawer .overbg{
     opacity:0.5;
 }
 .drawer_show .drawer .nav {

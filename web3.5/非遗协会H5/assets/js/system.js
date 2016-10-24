@@ -44,10 +44,11 @@ function addRemoveName(ele, obj, className) {
 $(function () {
     //首页菜单展开和关闭
     addClassName('#menu', 'body', 'drawer_show');
-    addRemoveName('#close', 'body', 'drawer_show');
+    addRemoveName('#close, div.overbg', 'body', 'drawer_show');
 
     //首页轮播图
     swiperContaniner('.swiper-container');
+
 
 });
 
